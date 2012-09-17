@@ -1,0 +1,30 @@
+{
+  "name": "function-inspector",
+  "version": "0.0.1",
+  "description": "function inspector",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bindings": "~1.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tokuhirom/node-function-inspector.git"
+  },
+  "keywords": [
+    "inspect",
+    "function"
+  ],
+  "author": "Tokuhiro Matsuno",
+  "license": "BSD",
+  "gypfile": true
+}
