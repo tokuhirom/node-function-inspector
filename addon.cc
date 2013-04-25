@@ -24,3 +24,4 @@ extern "C" void init(Handle<Object> target) {
     NODE_SET_METHOD(target, "inspect", fi_inspect);
 }
 
+NODE_MODULE(function_inspector, init)
